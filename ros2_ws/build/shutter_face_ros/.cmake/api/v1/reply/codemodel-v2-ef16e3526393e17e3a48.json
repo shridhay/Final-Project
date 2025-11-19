@@ -1,0 +1,242 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f7e426bb17e9f3d305b2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				},
+				{
+					"build" : "shutter_face_ros__py",
+					"jsonFile" : "directory-shutter_face_ros__py-Release-e825757c46dab91f7016.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.20"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/hrs47/ros2_ws/build/shutter_face_ros/shutter_face_ros__py",
+					"targetIndexes" : 
+					[
+						4
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "shutter_face_ros",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_shutter_face_ros_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_shutter_face_ros_egg-Release-4a8e5a04fd6f0f6bc62c.json",
+					"name" : "ament_cmake_python_build_shutter_face_ros_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_shutter_face_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_shutter_face_ros-Release-389f68ebff21be3d38a5.json",
+					"name" : "ament_cmake_python_copy_shutter_face_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros-Release-87b4bf57c3d16b3d96d2.json",
+					"name" : "shutter_face_ros",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__cpp-Release-db3df8f4e2343ab6c1cf.json",
+					"name" : "shutter_face_ros__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "shutter_face_ros__py::@c0c5444d28063870b5f5",
+					"jsonFile" : "target-shutter_face_ros__py-Release-2e2e5cdcd3592b005419.json",
+					"name" : "shutter_face_ros__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_generator_c-Release-7866c4465341f3e278a9.json",
+					"name" : "shutter_face_ros__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_generator_py-Release-3ff62c523d29b6fe8877.json",
+					"name" : "shutter_face_ros__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_generator_type_description::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_generator_type_description-Release-0ffa747bd2f78acea5f4.json",
+					"name" : "shutter_face_ros__rosidl_generator_type_description",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_c-Release-92a32201fedfb663a2f2.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_cpp-Release-7248951f1562ab6be8ba.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_fastrtps_c-Release-c6838b256ce4f1dc258f.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_fastrtps_cpp-Release-e72eddb33174b8fe665f.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_introspection_c-Release-2122e61ec34c33afe53a.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros__rosidl_typesupport_introspection_cpp-Release-761f2feb75c1a89acadd.json",
+					"name" : "shutter_face_ros__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros_s__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros_s__rosidl_typesupport_c-Release-da740e7f639fd6075ad3.json",
+					"name" : "shutter_face_ros_s__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros_s__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros_s__rosidl_typesupport_fastrtps_c-Release-f3e7f99a426e9905a8c6.json",
+					"name" : "shutter_face_ros_s__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros_s__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros_s__rosidl_typesupport_introspection_c-Release-51de989591c2caf487ef.json",
+					"name" : "shutter_face_ros_s__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_face_ros_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_face_ros_uninstall-Release-0033834131ee445e2147.json",
+					"name" : "shutter_face_ros_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-3f480664f93c663ff9e5.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrs47/ros2_ws/build/shutter_face_ros",
+		"source" : "/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

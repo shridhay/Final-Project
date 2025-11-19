@@ -1,0 +1,87 @@
+[0.237s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/install/shutter_description
+[0.250s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.742s] -- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+[0.764s] -- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+[0.769s] -- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+[0.770s] -- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[0.894s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.900s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.900s] -- Configured 'flake8' exclude dirs and/or files: 
+[0.901s] -- Added test 'lint_cmake' to check CMake code style
+[0.901s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.905s] -- Added test 'xmllint' to check XML markup files
+[0.906s] -- Configuring done (0.7s)
+[0.909s] -- Generating done (0.0s)
+[0.911s] -- Build files have been written to: /home/hrs47/ros2_ws/build/shutter_description
+[0.916s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_description -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/install/shutter_description
+[0.917s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_description -- -j12 -l12
+[0.954s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_description -- -j12 -l12
+[0.964s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_description
+[0.972s] -- Install configuration: "Release"
+[0.972s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//launch
+[0.972s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//launch/shutter_rviz.launch.py
+[0.972s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//launch/load_description.launch.py
+[0.972s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//config
+[0.972s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//config/robot_view.rviz
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/shoulder_link.stl
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/base_link.stl
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/biceps_link.new.stl
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/head.obj
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/d435.dae
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/forearm_link.new.stl
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/forearm_link.stl
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/cart_in_meters.obj
+[0.973s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/wrist_link_no_motor.stl
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//meshes/biceps_link.stl
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.dae
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.urdf
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.openrave.xml
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.2.0.xacro
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.xacro
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.unity.xacro
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.3.0.xacro
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.0.2.xacro
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/generated_urdf
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/generated_urdf/shutter.v.3.0.urdf
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/generated_urdf/shutter.v.2.0.urdf
+[0.974s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.4.1.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//robots/shutter.v.4.0.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/shutter.v.2.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/azure_kinect.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/sensor-zed.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/realsense_d435.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.v.2.0.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.v.0.2.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.urdf.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/shutter.v.1.xacro
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/zed_urdf
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/zed_urdf/zed.urdf
+[0.975s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/zed_urdf/ZED.stl
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/core
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/core/shutter_cart.xacro
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/core/shutter_head.v.1.xacro
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/core/shutter_arm.xacro
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description//urdf/core/shutter_head.v.2.xacro
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/lib/shutter_description/generate_ikfast_cpp.py
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/lib/shutter_description/make_ikfast_cpp.sh
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/lib/shutter_description/urdf_from_xacro.sh
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/ament_index/resource_index/package_run_dependencies/shutter_description
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/ament_index/resource_index/parent_prefix_path/shutter_description
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/environment/ament_prefix_path.sh
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/environment/ament_prefix_path.dsv
+[0.976s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/environment/path.sh
+[0.977s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/environment/path.dsv
+[0.977s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/local_setup.bash
+[0.977s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/local_setup.sh
+[0.977s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/local_setup.zsh
+[0.977s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/local_setup.dsv
+[0.977s] -- Installing: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.dsv
+[0.978s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/ament_index/resource_index/packages/shutter_description
+[0.978s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/cmake/shutter_descriptionConfig.cmake
+[0.978s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/cmake/shutter_descriptionConfig-version.cmake
+[0.978s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.xml
+[0.978s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_description

@@ -1,0 +1,65 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/app/.pyenv/shims/python3 (found version "3.12.3") found components: Interpreter 
+-- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+-- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+-- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+-- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.3s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hrs47/ros2_ws/build/shutter_bringup
+-- Install configuration: "Release"
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/shutter_sim.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/demo.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/shutter_unity.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/shutter_with_face.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/shutter.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//launch/shutter_webcam.launch.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/infer_webcam_id.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/shutter.v.0.2.yaml
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/logitech_c920.yaml
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/rviz_target.cfg.rviz
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/env-hooks
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/env-hooks/.gitkeep
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/shutter.v.0.1.yaml
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup//config/shutter.v.2.0.yaml
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/lib/shutter_bringup/unity_simulation_manager.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/lib/shutter_bringup/infer_webcam_id.py
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/ament_index/resource_index/package_run_dependencies/shutter_bringup
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/ament_index/resource_index/parent_prefix_path/shutter_bringup
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/environment/path.sh
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/environment/path.dsv
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/local_setup.bash
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/local_setup.sh
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/local_setup.zsh
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/local_setup.dsv
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.dsv
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/ament_index/resource_index/packages/shutter_bringup
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/cmake/shutter_bringupConfig.cmake
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/cmake/shutter_bringupConfig-version.cmake
+-- Installing: /home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.xml

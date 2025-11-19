@@ -1,0 +1,201 @@
+[0.215s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_face_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/install/shutter_face_ros
+[0.268s] -- The C compiler identification is GNU 13.3.0
+[0.331s] -- The CXX compiler identification is GNU 13.3.0
+[0.346s] -- Detecting C compiler ABI info
+[0.426s] -- Detecting C compiler ABI info - done
+[0.435s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.435s] -- Detecting C compile features
+[0.436s] -- Detecting C compile features - done
+[0.444s] -- Detecting CXX compiler ABI info
+[0.534s] -- Detecting CXX compiler ABI info - done
+[0.544s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.545s] -- Detecting CXX compile features
+[0.545s] -- Detecting CXX compile features - done
+[0.548s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.679s] -- Found Python3: /home/hrs47/ros2_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.781s] -- Found rclpy: 7.1.5 (/opt/ros/jazzy/share/rclpy/cmake)
+[0.782s] -- Found std_msgs: 5.3.6 (/opt/ros/jazzy/share/std_msgs/cmake)
+[0.824s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.839s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.856s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.875s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.910s] -- Found geometry_msgs: 5.3.6 (/opt/ros/jazzy/share/geometry_msgs/cmake)
+[0.928s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[0.943s] -- Found rosidl_adapter: 4.6.6 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[1.568s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[2.432s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.766s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.769s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[2.903s] -- Found PythonExtra: /home/hrs47/ros2_ws/.venv/bin/python3  
+[3.332s] -- Found Python3: /home/hrs47/ros2_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[3.418s] -- Found Python3: /home/hrs47/ros2_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[3.445s] -- Configuring done (3.2s)
+[3.483s] -- Generating done (0.0s)
+[3.495s] -- Build files have been written to: /home/hrs47/ros2_ws/build/shutter_face_ros
+[3.505s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_face_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/install/shutter_face_ros
+[3.506s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_face_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_face_ros -- -j12 -l12
+[3.555s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[3.564s] [  2%] Built target ament_cmake_python_copy_shutter_face_ros
+[3.773s] [  2%] Built target shutter_face_ros__rosidl_generator_type_description
+[3.783s] [  5%] [34m[1mGenerating C code for ROS interfaces[0m
+[3.794s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[3.819s] running egg_info
+[3.820s] creating shutter_face_ros.egg-info
+[3.845s] writing shutter_face_ros.egg-info/PKG-INFO
+[3.846s] writing dependency_links to shutter_face_ros.egg-info/dependency_links.txt
+[3.846s] writing top-level names to shutter_face_ros.egg-info/top_level.txt
+[3.846s] writing manifest file 'shutter_face_ros.egg-info/SOURCES.txt'
+[3.925s] reading manifest file 'shutter_face_ros.egg-info/SOURCES.txt'
+[3.925s] writing manifest file 'shutter_face_ros.egg-info/SOURCES.txt'
+[3.955s] [  8%] Built target ament_cmake_python_build_shutter_face_ros_egg
+[4.093s] [  8%] Built target shutter_face_ros__cpp
+[4.113s] [ 17%] [32mBuilding C object CMakeFiles/shutter_face_ros__rosidl_generator_c.dir/rosidl_generator_c/shutter_face_ros/msg/detail/pupils_location__description.c.o[0m
+[4.113s] [ 17%] [32mBuilding C object CMakeFiles/shutter_face_ros__rosidl_generator_c.dir/rosidl_generator_c/shutter_face_ros/msg/detail/pupils_location__type_support.c.o[0m
+[4.113s] [ 17%] [32mBuilding C object CMakeFiles/shutter_face_ros__rosidl_generator_c.dir/rosidl_generator_c/shutter_face_ros/msg/detail/pupils_location__functions.c.o[0m
+[4.206s] [ 20%] [32m[1mLinking C shared library libshutter_face_ros__rosidl_generator_c.so[0m
+[4.243s] [ 20%] Built target shutter_face_ros__rosidl_generator_c
+[4.255s] [ 26%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.255s] [ 26%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[4.256s] [ 32%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.256s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.258s] [ 35%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.258s] [ 38%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.559s] [ 41%] [32mBuilding CXX object CMakeFiles/shutter_face_ros__rosidl_typesupport_c.dir/rosidl_typesupport_c/shutter_face_ros/msg/pupils_location__type_support.cpp.o[0m
+[4.578s] [ 44%] [32mBuilding C object CMakeFiles/shutter_face_ros__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/shutter_face_ros/msg/detail/pupils_location__type_support.c.o[0m
+[4.581s] [ 47%] [32mBuilding CXX object CMakeFiles/shutter_face_ros__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/shutter_face_ros/msg/detail/pupils_location__type_support.cpp.o[0m
+[4.622s] [ 50%] [32m[1mLinking CXX shared library libshutter_face_ros__rosidl_typesupport_c.so[0m
+[4.635s] [ 52%] [32m[1mLinking C shared library libshutter_face_ros__rosidl_typesupport_introspection_c.so[0m
+[4.674s] [ 52%] Built target shutter_face_ros__rosidl_typesupport_c
+[4.674s] [ 52%] Built target shutter_face_ros__rosidl_typesupport_introspection_c
+[4.754s] [ 55%] [32mBuilding CXX object CMakeFiles/shutter_face_ros__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/shutter_face_ros/msg/pupils_location__type_support.cpp.o[0m
+[4.808s] [ 58%] [32mBuilding CXX object CMakeFiles/shutter_face_ros__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/shutter_face_ros/msg/detail/dds_fastrtps/pupils_location__type_support.cpp.o[0m
+[4.814s] [ 61%] [32mBuilding CXX object CMakeFiles/shutter_face_ros__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/shutter_face_ros/msg/detail/pupils_location__type_support_c.cpp.o[0m
+[4.971s] [ 64%] [32m[1mLinking CXX shared library libshutter_face_ros__rosidl_typesupport_introspection_cpp.so[0m
+[5.047s] [ 64%] Built target shutter_face_ros__rosidl_typesupport_introspection_cpp
+[5.112s] [ 67%] [32m[1mLinking CXX shared library libshutter_face_ros__rosidl_typesupport_cpp.so[0m
+[5.159s] [ 67%] Built target shutter_face_ros__rosidl_typesupport_cpp
+[5.341s] [ 70%] [32m[1mLinking CXX shared library libshutter_face_ros__rosidl_typesupport_fastrtps_c.so[0m
+[5.343s] [ 73%] [32m[1mLinking CXX shared library libshutter_face_ros__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.391s] [ 73%] Built target shutter_face_ros__rosidl_typesupport_fastrtps_c
+[5.392s] [ 73%] Built target shutter_face_ros__rosidl_typesupport_fastrtps_cpp
+[5.413s] [ 73%] Built target shutter_face_ros
+[5.434s] [ 76%] [34m[1mGenerating Python code for ROS interfaces[0m
+[5.735s] [ 76%] Built target shutter_face_ros__py
+[5.755s] [ 79%] [32mBuilding C object CMakeFiles/shutter_face_ros__rosidl_generator_py.dir/rosidl_generator_py/shutter_face_ros/msg/_pupils_location_s.c.o[0m
+[5.905s] [ 82%] [32m[1mLinking C shared library libshutter_face_ros__rosidl_generator_py.so[0m
+[5.948s] [ 82%] Built target shutter_face_ros__rosidl_generator_py
+[5.968s] [ 91%] [32mBuilding C object CMakeFiles/shutter_face_ros_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[5.968s] [ 91%] [32mBuilding C object CMakeFiles/shutter_face_ros_s__rosidl_typesupport_c.dir/rosidl_generator_py/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_c.c.o[0m
+[5.968s] [ 91%] [32mBuilding C object CMakeFiles/shutter_face_ros_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[6.097s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_introspection_c.so[0m
+[6.097s] [ 94%] [32m[1mLinking C shared module rosidl_generator_py/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_c.so[0m
+[6.103s] [100%] [32m[1mLinking C shared module rosidl_generator_py/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_fastrtps_c.so[0m
+[6.130s] [100%] Built target shutter_face_ros_s__rosidl_typesupport_introspection_c
+[6.130s] [100%] Built target shutter_face_ros_s__rosidl_typesupport_c
+[6.137s] [100%] Built target shutter_face_ros_s__rosidl_typesupport_fastrtps_c
+[6.148s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_face_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_face_ros -- -j12 -l12
+[6.149s] Invoking command in '/home/hrs47/ros2_ws/build/shutter_face_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_face_ros
+[6.158s] -- Install configuration: "Release"
+[6.158s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/ament_index/resource_index/rosidl_interfaces/shutter_face_ros
+[6.158s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/msg/PupilsLocation.json
+[6.158s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.158s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/pupils_location.h
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/rosidl_generator_c__visibility_control.h
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__struct.h
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__type_support.h
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__type_support.c
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__description.c
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__functions.h
+[6.159s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__functions.c
+[6.160s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/environment/library_path.sh
+[6.160s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/environment/library_path.dsv
+[6.160s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_generator_c.so
+[6.160s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_generator_c.so" to ""
+[6.161s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.161s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.161s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[6.161s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.161s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__rosidl_typesupport_fastrtps_c.h
+[6.161s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_fastrtps_c.so
+[6.162s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_fastrtps_c.so" to ""
+[6.162s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.162s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/pupils_location.hpp
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/rosidl_generator_cpp__visibility_control.hpp
+[6.162s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__builder.hpp
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__struct.hpp
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__traits.hpp
+[6.162s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__type_support.hpp
+[6.163s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.163s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.163s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.163s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__rosidl_typesupport_fastrtps_cpp.hpp
+[6.163s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/dds_fastrtps
+[6.163s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[6.163s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_fastrtps_cpp.so
+[6.164s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_fastrtps_cpp.so" to ""
+[6.164s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.164s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.164s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.164s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__rosidl_typesupport_introspection_c.h
+[6.164s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__type_support.c
+[6.164s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[6.165s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_introspection_c.so
+[6.165s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_introspection_c.so" to ""
+[6.165s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_c.so
+[6.165s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_c.so" to ""
+[6.165s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros
+[6.165s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg
+[6.166s] -- Up-to-date: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail
+[6.166s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__type_support.cpp
+[6.166s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/include/shutter_face_ros/shutter_face_ros/msg/detail/pupils_location__rosidl_typesupport_introspection_cpp.hpp
+[6.166s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_introspection_cpp.so
+[6.166s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_introspection_cpp.so" to ""
+[6.166s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_cpp.so
+[6.167s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_typesupport_cpp.so" to ""
+[6.167s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/environment/pythonpath.sh
+[6.167s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/environment/pythonpath.dsv
+[6.167s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros-0.0.1-py3.12.egg-info
+[6.167s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros-0.0.1-py3.12.egg-info/SOURCES.txt
+[6.167s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros-0.0.1-py3.12.egg-info/dependency_links.txt
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros-0.0.1-py3.12.egg-info/PKG-INFO
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros-0.0.1-py3.12.egg-info/top_level.txt
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_fastrtps_c.c
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_fastrtps_c.so
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_introspection_c.c
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_introspection_c.so
+[6.168s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/__init__.py
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg/__init__.py
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg/_pupils_location_s.c
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg/_pupils_location.py
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/_shutter_face_ros_s.ep.rosidl_typesupport_c.c
+[6.169s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_c.so
+[6.207s] Listing '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros'...
+[6.207s] Compiling '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/__init__.py'...
+[6.207s] Listing '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg'...
+[6.208s] Compiling '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg/__init__.py'...
+[6.208s] Compiling '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/msg/_pupils_location.py'...
+[6.213s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_fastrtps_c.so
+[6.213s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_fastrtps_c.so" to ""
+[6.213s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_introspection_c.so
+[6.213s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_introspection_c.so" to ""
+[6.214s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_c.so
+[6.214s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages/shutter_face_ros/shutter_face_ros_s__rosidl_typesupport_c.so" to ""
+[6.214s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_generator_py.so
+[6.215s] -- Set non-toolchain portion of runtime path of "/home/hrs47/ros2_ws/install/shutter_face_ros/lib/libshutter_face_ros__rosidl_generator_py.so" to ""
+[6.215s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/msg/PupilsLocation.idl
+[6.215s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/msg/PupilsLocation.msg
+[6.215s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/shutter_face_ros/gaze_master.py
+[6.215s] -- Installing: /home/hrs47/ros2_ws/install/shutter_face_ros/lib/shutter_face_ros/simple_face.py
+[6.215s] [31mCMake Error at cmake_install.cmake:385 (file):
+[6.216s]   file INSTALL cannot find
+[6.216s]   "/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros/shutter_face/shutter_face/data":
+[6.216s]   No such file or directory.
+[6.216s] 
+[6.216s] [0m
+[6.217s] Invoked command in '/home/hrs47/ros2_ws/build/shutter_face_ros' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_face_ros

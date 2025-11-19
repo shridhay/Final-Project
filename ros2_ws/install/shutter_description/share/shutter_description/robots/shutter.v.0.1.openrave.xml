@@ -1,0 +1,6 @@
+<robot file="shutter.v.0.1.dae">
+  <Manipulator name="shutter">
+    <base>base_footprint</base>
+    <effector>wrist_link</effector>
+  </Manipulator>
+</robot>

@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro" name="shutter">
+  <xacro:include filename="$(find shutter_description)/urdf/third_party/widowx-nogripper.v.0.2.urdf.xacro"/>
+  <xacro:include filename="$(find shutter_description)/urdf/third_party/realsense_d435.urdf.xacro"/>
+  <!-- base footprint -->
+  <link name="base_footprint">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.001 0.001 0.001"/>
+      </geometry>
+    </visual>
+  </link>
+  <!-- robot arm -->
+  <xacro:widowx_arm parent="base_footprint">
+    <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+  </xacro:widowx_arm>
+  <!-- head -->
+  <material name="gray">
+    <color rgba="0.5 0.5 0.5 1"/>
+  </material>
+  <link name="head_link">
+    <inertial>
+      <mass value="1e-5"/>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6"/>
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.175 0.12615 0.0224"/>
+      </geometry>
+    </collision>
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.175 0.12615 0.0224"/>
+      </geometry>
+      <material name="gray"/>
+    </visual>
+  </link>
+  <joint name="head_joint" type="fixed">
+    <origin xyz="-0.00803 0 0.041" rpy="0 0 1.571"/>
+    <parent link="wrist_link"/>
+    <child link="head_link"/>
+  </joint>
+  <!-- realsense camera -->
+  <xacro:sensor_d435 parent="head_link">
+    <origin xyz="0 0.0644 0" rpy="-1.571 -1.571 0"/>
+  </xacro:sensor_d435>
+  <!-- processing eyes on the face -->
+  <link name="left_eye"/>
+  <joint name="left_eye_joint" type="fixed">
+    <!--<origin xyz="0.03175 0 0" rpy="0 0 0"/>-->
+    <origin xyz="0.03175 0 0" rpy="0 3.14 3.14"/>
+    <parent link="head_link"/>
+    <child link="left_eye"/>
+  </joint>
+  <link name="right_eye"/>
+  <joint name="right_eye_joint" type="fixed">
+    <!-- <origin xyz="-0.03175 0 0" rpy="0 0 0"/> -->
+    <origin xyz="-0.03175 0 0" rpy="0 3.14 3.14"/>
+    <parent link="head_link"/>
+    <child link="right_eye"/>
+  </joint>
+</robot>

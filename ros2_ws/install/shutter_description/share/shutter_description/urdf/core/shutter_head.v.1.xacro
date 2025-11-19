@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+<robot name="shutter_head" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find shutter_description)/urdf/third_party/realsense_d435.urdf.xacro"/>
+
+
+  <xacro:macro name="shutter_head" params="parent:='' xyz:='0 0 0' rpy:='0 0 0' ">
+
+    <xacro:unless value="${not parent}">
+      <joint name="head_joint" type="fixed">
+        <parent link="${parent}"/>
+        <child link="head_link"/>
+        <origin xyz="${xyz}" rpy="${rpy}"/>
+      </joint>
+    </xacro:unless>
+
+    <material name="gray">
+      <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+
+    <link name="head_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.175 0.12615 0.0224"/>
+        </geometry>
+        <material name="gray"/>
+      </visual>
+      <inertial>
+        <mass value="1e-5" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+      </inertial>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.175 0.12615 0.0224"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <!-- processing eyes on the face -->
+    <link name="left_eye"/>
+    <joint name="left_eye_joint" type="fixed">
+      <!--<origin xyz="0.03175 0 0" rpy="0 0 0"/>-->
+      <origin xyz="0.03175 0 0" rpy="0 3.14 3.14"/>
+      <parent link="head_link"/>
+      <child link="left_eye"/>
+    </joint>
+
+    <link name="right_eye"/>
+    <joint name="right_eye_joint" type="fixed">
+      <!-- <origin xyz="-0.03175 0 0" rpy="0 0 0"/> -->
+      <origin xyz="-0.03175 0 0" rpy="0 3.14 3.14"/>
+      <parent link="head_link"/>
+      <child link="right_eye"/>
+    </joint>
+
+    <!-- realsense camera -->
+    <xacro:sensor_d435 parent="head_link">
+      <origin xyz="0 0.0644 0" rpy="-1.571 -1.571 0"/>
+    </xacro:sensor_d435>
+
+  </xacro:macro>
+</robot>

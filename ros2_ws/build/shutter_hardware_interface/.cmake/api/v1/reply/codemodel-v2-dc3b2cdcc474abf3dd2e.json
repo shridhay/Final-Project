@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-2530ebfce5d14a718f53.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "shutter_hardware_interface",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_hardware_interface_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_hardware_interface_uninstall-Release-a4dd647b5fcfffca5108.json",
+					"name" : "shutter_hardware_interface_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_hw_core::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_hw_core-Release-ed68fb0b695b5ea9ee19.json",
+					"name" : "shutter_hw_core",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "shutter_position_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-shutter_position_node-Release-697a8a66041bfe876f10.json",
+					"name" : "shutter_position_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Release-9c59dfe6ed2f67bd2400.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/hrs47/ros2_ws/build/shutter_hardware_interface",
+		"source" : "/home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

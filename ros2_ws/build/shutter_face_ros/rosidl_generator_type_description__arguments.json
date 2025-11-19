@@ -1,0 +1,12 @@
+{
+  "package_name": "shutter_face_ros",
+  "output_dir": "/home/hrs47/ros2_ws/build/shutter_face_ros/rosidl_generator_type_description/shutter_face_ros",
+  "idl_tuples": [
+    "/home/hrs47/ros2_ws/build/shutter_face_ros/rosidl_adapter/shutter_face_ros:msg/PupilsLocation.idl"
+  ],
+  "include_paths": [
+    "std_msgs:/opt/ros/jazzy/share/std_msgs",
+    "builtin_interfaces:/opt/ros/jazzy/share/builtin_interfaces",
+    "geometry_msgs:/opt/ros/jazzy/share/geometry_msgs"
+  ]
+}

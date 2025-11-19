@@ -1,0 +1,500 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DCMAKE_BUILD_TYPE=Release']
+[0.116s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DCMAKE_BUILD_TYPE=Release'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x77c6d7df5250>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x77c6d7df4f80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x77c6d7df4f80>>, mixin_verb=('build',))
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.149s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.149s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/hrs47/ros2_ws'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.170s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.171s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'ignore'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'ignore_ament_install'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['colcon_pkg']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'colcon_pkg'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['colcon_meta']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'colcon_meta'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['ros']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'ros'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['cmake', 'python']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'cmake'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'python'
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extensions ['python_setup_py']
+[0.172s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/build) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/build) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/build) ignored
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'colcon_pkg'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['colcon_meta']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'colcon_meta'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['ros']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'ros'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['cmake', 'python']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'cmake'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'python'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extensions ['python_setup_py']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation) by extension 'python_setup_py'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['ignore', 'ignore_ament_install']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'ignore'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'ignore_ament_install'
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['colcon_pkg']
+[0.173s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source) by extension 'python_setup_py'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['ignore', 'ignore_ament_install']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'ignore'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'ignore_ament_install'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['colcon_pkg']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'colcon_pkg'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['colcon_meta']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'colcon_meta'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['ros']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'ros'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['cmake', 'python']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'cmake'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'python'
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extensions ['python_setup_py']
+[0.174s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/images) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'ignore_ament_install'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['colcon_pkg']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'colcon_pkg'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['colcon_meta']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'colcon_meta'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['ros']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'ros'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['cmake', 'python']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'cmake'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'python'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extensions ['python_setup_py']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/documentation/source/packages) by extension 'python_setup_py'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/install) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/install) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/install) ignored
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/log) by extensions ['ignore', 'ignore_ament_install']
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/log) by extension 'ignore'
+[0.175s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/log) ignored
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'ros'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['cmake', 'python']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'cmake'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'python'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extensions ['python_setup_py']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules) by extension 'python_setup_py'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/modules/ROS-TCP-Endpoint) by extension 'ros'
+[0.179s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shutter-ros2/modules/ROS-TCP-Endpoint' with type 'ros.ament_python' and name 'ros_tcp_endpoint'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extension 'ignore'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extension 'ignore_ament_install'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extensions ['colcon_pkg']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extension 'colcon_pkg'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extensions ['colcon_meta']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extension 'colcon_meta'
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extensions ['ros']
+[0.179s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_bringup) by extension 'ros'
+[0.180s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shutter-ros2/shutter_bringup' with type 'ros.ament_cmake' and name 'shutter_bringup'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extensions ['ignore', 'ignore_ament_install']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extension 'ignore'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extension 'ignore_ament_install'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extensions ['colcon_pkg']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extension 'colcon_pkg'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extensions ['colcon_meta']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extension 'colcon_meta'
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extensions ['ros']
+[0.180s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_description) by extension 'ros'
+[0.181s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shutter-ros2/shutter_description' with type 'ros.ament_cmake' and name 'shutter_description'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extension 'ignore'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extension 'ignore_ament_install'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extensions ['colcon_pkg']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extension 'colcon_pkg'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extensions ['colcon_meta']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extension 'colcon_meta'
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extensions ['ros']
+[0.181s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_face_ros) by extension 'ros'
+[0.182s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shutter-ros2/shutter_face_ros' with type 'ros.ament_cmake' and name 'shutter_face_ros'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extensions ['ignore', 'ignore_ament_install']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extension 'ignore'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extension 'ignore_ament_install'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extensions ['colcon_pkg']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extension 'colcon_pkg'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extensions ['colcon_meta']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extension 'colcon_meta'
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extensions ['ros']
+[0.182s] Level 1:colcon.colcon_core.package_identification:_identify(src/shutter-ros2/shutter_hardware_interface) by extension 'ros'
+[0.183s] DEBUG:colcon.colcon_core.package_identification:Package 'src/shutter-ros2/shutter_hardware_interface' with type 'ros.ament_cmake' and name 'shutter_hardware_interface'
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.183s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.198s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.199s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 5 installed packages in /home/hrs47/ros2_ws/install
+[0.201s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 366 installed packages in /opt/ros/jazzy
+[0.202s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_cache' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'ros_tcp_endpoint' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'ros_tcp_endpoint' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs47/ros2_ws/build/ros_tcp_endpoint', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs47/ros2_ws/install/ros_tcp_endpoint', 'merge_install': False, 'path': '/home/hrs47/ros2_ws/src/shutter-ros2/modules/ROS-TCP-Endpoint', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'shutter_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs47/ros2_ws/build/shutter_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs47/ros2_ws/install/shutter_description', 'merge_install': False, 'path': '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_description', 'symlink_install': False, 'test_result_base': None}
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_target' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.251s] Level 5:colcon.colcon_core.verb:set package 'shutter_face_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.251s] DEBUG:colcon.colcon_core.verb:Building package 'shutter_face_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs47/ros2_ws/build/shutter_face_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs47/ros2_ws/install/shutter_face_ros', 'merge_install': False, 'path': '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_hardware_interface' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'shutter_hardware_interface' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs47/ros2_ws/build/shutter_hardware_interface', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs47/ros2_ws/install/shutter_hardware_interface', 'merge_install': False, 'path': '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface', 'symlink_install': False, 'test_result_base': None}
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_args' from command line to '['-DCMAKE_BUILD_TYPE=Release']'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_target' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.252s] Level 5:colcon.colcon_core.verb:set package 'shutter_bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.252s] DEBUG:colcon.colcon_core.verb:Building package 'shutter_bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/hrs47/ros2_ws/build/shutter_bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DCMAKE_BUILD_TYPE=Release'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/hrs47/ros2_ws/install/shutter_bringup', 'merge_install': False, 'path': '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_bringup', 'symlink_install': False, 'test_result_base': None}
+[0.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.253s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.253s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/hrs47/ros2_ws/src/shutter-ros2/modules/ROS-TCP-Endpoint' with build type 'ament_python'
+[0.253s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'ament_prefix_path')
+[0.255s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.255s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.ps1'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.dsv'
+[0.256s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/ament_prefix_path.sh'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.261s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_description' with build type 'ament_cmake'
+[0.261s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_description'
+[0.261s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.261s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.264s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros' with build type 'ament_cmake'
+[0.264s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros'
+[0.264s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.268s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface' with build type 'ament_cmake'
+[0.268s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface'
+[0.268s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.268s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.484s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/hrs47/ros2_ws/src/shutter-ros2/modules/ROS-TCP-Endpoint'
+[0.484s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.484s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_description -- -j12 -l12
+[0.492s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_face_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_face_ros -- -j12 -l12
+[0.496s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_hardware_interface -- -j12 -l12
+[0.528s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_description -- -j12 -l12
+[0.538s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_description
+[0.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_description)
+[0.561s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_description
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description' for CMake module files
+[0.564s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description' for CMake config files
+[0.565s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_description', 'cmake_prefix_path')
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.ps1'
+[0.565s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.dsv'
+[0.566s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.sh'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/bin'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib/pkgconfig/shutter_description.pc'
+[0.567s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib/python3.12/site-packages'
+[0.568s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/bin'
+[0.568s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.ps1'
+[0.569s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.dsv'
+[0.570s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.sh'
+[0.571s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.bash'
+[0.572s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.zsh'
+[0.573s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_description/share/colcon-core/packages/shutter_description)
+[0.574s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_description)
+[0.575s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description' for CMake module files
+[0.576s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description' for CMake config files
+[0.577s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_description', 'cmake_prefix_path')
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.ps1'
+[0.577s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.dsv'
+[0.578s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/hook/cmake_prefix_path.sh'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib'
+[0.578s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/bin'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib/pkgconfig/shutter_description.pc'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/lib/python3.12/site-packages'
+[0.579s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_description/bin'
+[0.579s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.ps1'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.dsv'
+[0.580s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.sh'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.bash'
+[0.581s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_description/share/shutter_description/package.zsh'
+[0.582s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_description/share/colcon-core/packages/shutter_description)
+[0.607s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_hardware_interface -- -j12 -l12
+[0.608s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_hardware_interface
+[0.620s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_hardware_interface)
+[0.620s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface' for CMake module files
+[0.620s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_hardware_interface
+[0.621s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface' for CMake config files
+[0.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_hardware_interface', 'cmake_prefix_path')
+[0.621s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.sh'
+[0.622s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib'
+[0.623s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_hardware_interface', 'ld_library_path_lib')
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.sh'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/bin'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib/pkgconfig/shutter_hardware_interface.pc'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib/python3.12/site-packages'
+[0.624s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/bin'
+[0.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.ps1'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.dsv'
+[0.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.sh'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.bash'
+[0.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.zsh'
+[0.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/colcon-core/packages/shutter_hardware_interface)
+[0.627s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_hardware_interface)
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface' for CMake module files
+[0.627s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface' for CMake config files
+[0.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_hardware_interface', 'cmake_prefix_path')
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.ps1'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.dsv'
+[0.628s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/cmake_prefix_path.sh'
+[0.629s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib'
+[0.629s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_hardware_interface', 'ld_library_path_lib')
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.ps1'
+[0.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.dsv'
+[0.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/hook/ld_library_path_lib.sh'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/bin'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib/pkgconfig/shutter_hardware_interface.pc'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib/python3.12/site-packages'
+[0.630s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_hardware_interface/bin'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.ps1'
+[0.631s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.dsv'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.sh'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.bash'
+[0.632s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/shutter_hardware_interface/package.zsh'
+[0.633s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_hardware_interface/share/colcon-core/packages/shutter_hardware_interface)
+[0.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_face_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_face_ros -- -j12 -l12
+[0.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_face_ros': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_face_ros
+[0.994s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_face_ros)
+[0.994s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros' for CMake module files
+[0.997s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros' for CMake config files
+[0.998s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_face_ros' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_face_ros
+[0.999s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'cmake_prefix_path')
+[0.999s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.ps1'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.dsv'
+[1.000s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.sh'
+[1.000s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib'
+[1.000s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'ld_library_path_lib')
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.ps1'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.dsv'
+[1.001s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.sh'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/bin'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/pkgconfig/shutter_face_ros.pc'
+[1.002s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages'
+[1.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'pythonpath')
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.ps1'
+[1.002s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.dsv'
+[1.003s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.sh'
+[1.003s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/bin'
+[1.003s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.ps1'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.dsv'
+[1.004s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.sh'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.bash'
+[1.005s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.zsh'
+[1.005s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_face_ros/share/colcon-core/packages/shutter_face_ros)
+[1.006s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_face_ros)
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros' for CMake module files
+[1.006s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros' for CMake config files
+[1.007s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'cmake_prefix_path')
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.ps1'
+[1.007s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.dsv'
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/cmake_prefix_path.sh'
+[1.008s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib'
+[1.008s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'ld_library_path_lib')
+[1.008s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.ps1'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.dsv'
+[1.009s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/ld_library_path_lib.sh'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/bin'
+[1.009s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/pkgconfig/shutter_face_ros.pc'
+[1.010s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/lib/python3.12/site-packages'
+[1.010s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_face_ros', 'pythonpath')
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.ps1'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.dsv'
+[1.010s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/hook/pythonpath.sh'
+[1.011s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_face_ros/bin'
+[1.011s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.ps1'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.dsv'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.sh'
+[1.012s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.bash'
+[1.013s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_face_ros/share/shutter_face_ros/package.zsh'
+[1.013s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_face_ros/share/colcon-core/packages/shutter_face_ros)
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/src/shutter-ros2/modules/ROS-TCP-Endpoint': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hrs47/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs47/ros2_ws/install/ros_tcp_endpoint/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros_tcp_endpoint build --build-base /home/hrs47/ros2_ws/build/ros_tcp_endpoint/build install --record /home/hrs47/ros2_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data
+[1.739s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint' for CMake module files
+[1.740s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/src/shutter-ros2/modules/ROS-TCP-Endpoint' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/hrs47/ros2_ws/build/ros_tcp_endpoint/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/hrs47/ros2_ws/install/ros_tcp_endpoint/lib/python3.12/site-packages:${PYTHONPATH} VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../../../build/ros_tcp_endpoint build --build-base /home/hrs47/ros2_ws/build/ros_tcp_endpoint/build install --record /home/hrs47/ros2_ws/build/ros_tcp_endpoint/install.log --single-version-externally-managed install_data
+[1.740s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint' for CMake config files
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/lib'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/bin'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/lib/pkgconfig/ros_tcp_endpoint.pc'
+[1.741s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/lib/python3.12/site-packages'
+[1.741s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_tcp_endpoint', 'pythonpath')
+[1.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.ps1'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.dsv'
+[1.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/hook/pythonpath.sh'
+[1.742s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/bin'
+[1.742s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_tcp_endpoint)
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.ps1'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.dsv'
+[1.743s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.sh'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.bash'
+[1.744s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/ros_tcp_endpoint/package.zsh'
+[1.744s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/ros_tcp_endpoint/share/colcon-core/packages/ros_tcp_endpoint)
+[1.744s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_bringup' with build type 'ament_cmake'
+[1.745s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/hrs47/ros2_ws/src/shutter-ros2/shutter_bringup'
+[1.745s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.745s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.758s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_bringup': AMENT_PREFIX_PATH=/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros/lib:/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_bringup -- -j12 -l12
+[1.795s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_bringup' returned '0': AMENT_PREFIX_PATH=/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros/lib:/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/build/shutter_bringup -- -j12 -l12
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/hrs47/ros2_ws/build/shutter_bringup': AMENT_PREFIX_PATH=/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros/lib:/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_bringup
+[1.806s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_bringup)
+[1.806s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup' for CMake module files
+[1.807s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/hrs47/ros2_ws/build/shutter_bringup' returned '0': AMENT_PREFIX_PATH=/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/opt/ros/jazzy CMAKE_PREFIX_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros:/home/hrs47/ros2_ws/install/shutter_description:/home/hrs47/ros2_ws/install/shutter_hardware_interface:/home/hrs47/ros2_ws/install/shutter_bringup:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/hrs47/ros2_ws/install/shutter_face_ros/lib:/home/hrs47/ros2_ws/install/shutter_hardware_interface/lib:/opt/ros/jazzy/opt/sdformat_vendor/lib:/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/x86_64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_tools_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib:/usr/local/cuda/lib64:/usr/local/cuda/extras/CUPTI/lib64:/opt/ros/noetic/lib:/opt/ros/noetic/lib/x86_64-linux-gnu PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --install /home/hrs47/ros2_ws/build/shutter_bringup
+[1.807s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup' for CMake config files
+[1.808s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_bringup', 'cmake_prefix_path')
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.ps1'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.dsv'
+[1.808s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.sh'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/bin'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib/pkgconfig/shutter_bringup.pc'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib/python3.12/site-packages'
+[1.809s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/bin'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.ps1'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.dsv'
+[1.810s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.sh'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.bash'
+[1.811s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.zsh'
+[1.811s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_bringup/share/colcon-core/packages/shutter_bringup)
+[1.811s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(shutter_bringup)
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup' for CMake module files
+[1.812s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup' for CMake config files
+[1.813s] Level 1:colcon.colcon_core.shell:create_environment_hook('shutter_bringup', 'cmake_prefix_path')
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.ps1'
+[1.813s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.dsv'
+[1.814s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/hook/cmake_prefix_path.sh'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/bin'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib/pkgconfig/shutter_bringup.pc'
+[1.814s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/lib/python3.12/site-packages'
+[1.815s] Level 1:colcon.colcon_core.environment:checking '/home/hrs47/ros2_ws/install/shutter_bringup/bin'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.ps1'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.dsv'
+[1.815s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.sh'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.bash'
+[1.816s] INFO:colcon.colcon_core.shell:Creating package script '/home/hrs47/ros2_ws/install/shutter_bringup/share/shutter_bringup/package.zsh'
+[1.816s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/hrs47/ros2_ws/install/shutter_bringup/share/colcon-core/packages/shutter_bringup)
+[1.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[1.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[1.817s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[1.817s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[1.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[1.823s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[1.823s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[1.834s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[1.834s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs47/ros2_ws/install/local_setup.ps1'
+[1.835s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs47/ros2_ws/install/_local_setup_util_ps1.py'
+[1.837s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs47/ros2_ws/install/setup.ps1'
+[1.838s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs47/ros2_ws/install/local_setup.sh'
+[1.839s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/hrs47/ros2_ws/install/_local_setup_util_sh.py'
+[1.840s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs47/ros2_ws/install/setup.sh'
+[1.841s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs47/ros2_ws/install/local_setup.bash'
+[1.842s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs47/ros2_ws/install/setup.bash'
+[1.843s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/hrs47/ros2_ws/install/local_setup.zsh'
+[1.843s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/hrs47/ros2_ws/install/setup.zsh'

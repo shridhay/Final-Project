@@ -1,0 +1,7 @@
+<?xml version="1.0" ?>
+<robot name="shutter" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find shutter_description)/urdf/shutter.v.1.xacro"/>
+
+  <!-- robot -->
+  <xacro:shutter/>
+</robot>

@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:385 (file):
+  file INSTALL cannot find
+  "/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros/shutter_face/shutter_face/data":
+  No such file or directory.
+
+[0m

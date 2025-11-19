@@ -1,0 +1,6 @@
+{
+  "package_name": "shutter_face_ros",
+  "non_idl_tuples": [
+    "/home/hrs47/ros2_ws/src/shutter-ros2/shutter_face_ros:msg/PupilsLocation.msg"
+  ]
+}

@@ -1,0 +1,24 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from shutter_face_ros/msg/PupilsLocation.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Point32.idl"
+#include "std_msgs/msg/Header.idl"
+
+module shutter_face_ros {
+  module msg {
+    struct PupilsLocation {
+      @verbatim (language="comment", text=
+        "stamp")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "2D pupil location for the left eye -- ignore z value")
+      geometry_msgs::msg::Point32 left_eye;
+
+      @verbatim (language="comment", text=
+        "2D pupil location for the right eye -- ignore z value")
+      geometry_msgs::msg::Point32 right_eye;
+    };
+  };
+};
