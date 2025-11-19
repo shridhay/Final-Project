@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+<robot name="shutter_arm" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find shutter_description)/urdf/third_party/widowx-nogripper.v.2.0.urdf.xacro"/>
+
+  <xacro:macro name="shutter_arm" params="parent:='' xyz:='0 0 0' rpy:='0 0 0' ">
+
+    <!-- legacy frame for compatibility with shutter_description -->
+    <link name="base_footprint"/>
+    <xacro:unless value="${not parent}">
+      <joint name="footprint_joint" type="fixed">
+        <origin xyz="${xyz}" rpy="${rpy}"/>
+        <parent link="${parent}"/>
+        <child link="base_footprint"/>
+      </joint>
+    </xacro:unless>
+
+    <!-- robot arm -->
+    <xacro:widowx_arm parent="base_footprint">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+    </xacro:widowx_arm>
+  </xacro:macro>
+</robot>

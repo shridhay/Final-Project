@@ -1,0 +1,10 @@
+.DS_Store
+*~
+*#
+*.pyc
+.idea
+dist
+build
+*egg-info
+venv
+Pipfile.lock

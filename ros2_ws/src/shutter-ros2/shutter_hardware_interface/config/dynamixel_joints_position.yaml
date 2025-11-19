@@ -1,0 +1,33 @@
+# You can find control table of Dynamixel on emanual (http://emanual.robotis.com/#control-table)
+# Control table item has to be set Camel_Case and not included whitespace
+# You are supposed to set at least Dynamixel ID
+#
+# MX-64 2.0 Control Table: https://emanual.robotis.com/docs/en/dxl/mx/mx-64-2/#control-table
+# MX-28 2.0 Control Table: https://emanual.robotis.com/docs/en/dxl/mx/mx-28-2/#control-table
+# Note that control table items stored in the EEPROM area (e.g., Return_Delay_Time) should NOT be set here.
+# Instead, use the Dynamixel Wizard to set those values.
+#
+joint_1:
+  ID: 1
+  Operating_Mode: 3 # position control
+  Profile_Velocity: 38
+  Profile_Acceleration: 0
+  Velocity_I_Gain: 1000
+joint_2:
+  ID: 2
+  Operating_Mode: 3 # position control
+  Profile_Velocity: 28
+  Profile_Acceleration: 0
+  Velocity_I_Gain: 1000
+joint_3:
+  ID: 3
+  Operating_Mode: 3 # position control
+  Profile_Velocity: 28
+  Profile_Acceleration: 0
+  Velocity_I_Gain: 1000
+joint_4:
+  ID: 4
+  Operating_Mode: 3 # position control
+  Profile_Velocity: 28
+  Profile_Acceleration: 0
+  Velocity_I_Gain: 1000

@@ -1,0 +1,120 @@
+<?xml version="1.0" ?>
+<robot name="shutter" xmlns:xacro="http://ros.org/wiki/xacro">
+    <xacro:include filename="$(find shutter_description)/urdf/third_party/widowx-nogripper.v.2.0.urdf.xacro"/>
+    <xacro:include filename="$(find shutter_description)/urdf/third_party/realsense_d435.urdf.xacro"/>
+    <!-- NOTE: use a local Kinect URDF for correct import and prefix -->
+    <xacro:include filename="$(find shutter_description)/urdf/third_party/azure_kinect.urdf.xacro"/>
+
+    <!-- base footprint -->
+    <link name="base_footprint">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.001 0.001 0.001" />
+            </geometry>
+        </visual>
+    </link>
+
+    <!-- master Kinect -->
+    <xacro:azure_kinect parent="base_footprint" prefix="master_">
+        <origin xyz="-0.146 -0.135 0.671" rpy= "0.020 -0.061 -0.210"/>
+    </xacro:azure_kinect>
+
+    <!-- sub Kinect -->
+    <xacro:azure_kinect parent="master_camera_base" prefix="sub_">
+        <origin xyz="-0.130 0.603 0.002" rpy= "0.003 0.005 0.394"/>
+    </xacro:azure_kinect>
+
+    <!-- robot arm -->
+    <xacro:widowx_arm parent="base_footprint">
+        <origin xyz="0.0 0.0 0.0" rpy="0.0 0.0 0.0"/>
+    </xacro:widowx_arm>
+
+    <!-- head -->
+    <material name="gray">
+      <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+    <link name="head_link">
+    <inertial>
+      <mass value="1e-5" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+    </inertial>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="0.175 0.12615 0.0224"/>
+      </geometry>
+    </collision>
+    <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+            <box size="0.175 0.12615 0.0224"/>
+        </geometry>
+        <material name="gray"/>
+    </visual>
+    </link>
+    <joint name="head_joint" type="fixed">
+        <origin xyz="-0.00803 0 0.041" rpy="0 0 1.571"/>
+        <parent link="wrist_link"/>
+        <child link="head_link"/>
+    </joint>
+
+    <!-- realsense camera -->
+    <xacro:sensor_d435 parent="head_link">
+        <origin xyz="0 0.0644 0" rpy="-1.571 -1.571 0"/>
+    </xacro:sensor_d435>
+
+    <!-- processing eyes on the face -->
+    <link name="left_eye"/>
+    <joint name="left_eye_joint" type="fixed">
+        <!--<origin xyz="0.03175 0 0" rpy="0 0 0"/>-->
+        <origin xyz="0.03175 0 0" rpy="0 3.14 3.14"/>
+        <parent link="head_link"/>
+        <child link="left_eye"/>
+    </joint>
+
+    <link name="right_eye"/>
+    <joint name="right_eye_joint" type="fixed">
+        <!-- <origin xyz="-0.03175 0 0" rpy="0 0 0"/> -->
+        <origin xyz="-0.03175 0 -0.001" rpy="0 3.14 3.14"/>
+        <parent link="head_link"/>
+        <child link="right_eye"/>
+    </joint>
+
+    <!-- cart -->
+    <link name="cart_link">
+        <visual>
+            <origin xyz="0 0 0" rpy="1.57 0 1.57"/>
+            <geometry>
+                <mesh filename="package://shutter_description/meshes/cart_in_meters.obj" scale="1 1 1" />
+            </geometry>
+        </visual>
+        <collision>
+            <!-- display screen -->
+            <origin xyz="-0.3622 0 0.48 " rpy="1.57 0 1.57"/>
+            <geometry>
+                <box size="0.78 0.517 0.1049" />
+            </geometry>
+        </collision>
+        <collision>
+            <!-- side panel -->
+            <origin xyz="0 -0.3896 0.0919 " rpy="1.57 0 1.57"/>
+            <geometry>
+                <box size="0.001 0.1349 0.8049" />
+            </geometry>
+        </collision>
+        <collision>
+            <!-- cart top -->
+            <origin xyz="0 0 0.005" rpy="1.57 0 1.57"/>
+            <geometry>
+                <box size="0.7793 0.0001 0.7793" />
+            </geometry>
+        </collision>
+    </link>
+    <joint name="cart" type="fixed">
+        <origin xyz="0.11239 0.20231 -0.008" rpy="0 0 0"/>
+        <parent link="base_footprint"/>
+        <child link="cart_link"/>
+    </joint>
+</robot>

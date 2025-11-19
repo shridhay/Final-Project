@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>shutter_hardware_interface</name>
+  <version>0.1.0</version>
+  <description>Direct Dynamixel-based hardware interface and node for Shutter (ROS 2).</description>
+
+  <maintainer email="you@example.com">Your Name</maintainer>
+  <license>Apache-2.0</license>
+
+  <!-- Build system -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Dependencies used at build and run -->
+  <depend>rclcpp</depend>
+  <depend>sensor_msgs</depend>
+  <depend>std_msgs</depend>
+  <depend>dynamixel_workbench_toolbox</depend>
+  <depend>dynamixel_workbench_msgs</depend>
+  <depend>joint_limits</depend>
+  <depend>yaml-cpp</depend>
+
+  <!-- Export for downstream packages -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

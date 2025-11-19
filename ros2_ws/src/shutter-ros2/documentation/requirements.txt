@@ -1,0 +1,3 @@
+sphinx_rtd_theme
+mistune==0.8.4
+myst-parser

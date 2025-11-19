@@ -1,0 +1,45 @@
+<?xml version="1.0" ?>
+<robot name="shutter_cart" xmlns:xacro="http://ros.org/wiki/xacro">
+
+  <xacro:macro name="shutter_cart" params="parent:='' xyz:='0 0 0' rpy:='0 0 0' ">
+
+    <xacro:unless value="${not parent}">
+      <joint name="cart_joint" type="fixed">
+        <parent link="${parent}"/>
+        <child link="cart_link"/>
+        <origin xyz="${xyz}" rpy="${rpy}"/>
+      </joint>
+    </xacro:unless>
+
+    <!-- cart -->
+    <link name="cart_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="1.57 0 1.57"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/cart_in_meters.obj" scale="1.18 1.18 1.18" />
+        </geometry>
+      </visual>
+      <collision>
+        <!-- display screen -->
+        <origin xyz="-0.3622 0 0.48 " rpy="1.57 0 1.57"/>
+        <geometry>
+          <box size="0.78 0.517 0.1049" />
+        </geometry>
+      </collision>
+      <collision>
+        <!-- side panel -->
+        <origin xyz="0 -0.3896 0.0919 " rpy="1.57 0 1.57"/>
+        <geometry>
+          <box size="0.001 0.1349 0.8049" />
+        </geometry>
+      </collision>
+      <collision>
+        <!-- cart top -->
+        <origin xyz="0 0 0.005" rpy="1.57 0 1.57"/>
+        <geometry>
+          <box size="0.7793 0.0001 0.7793" />
+        </geometry>
+      </collision>
+    </link>
+  </xacro:macro>
+</robot>

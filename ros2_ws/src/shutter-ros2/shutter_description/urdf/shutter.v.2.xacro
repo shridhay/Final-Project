@@ -1,0 +1,10 @@
+<?xml version="1.0" ?>
+<robot name="shutter" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find shutter_description)/urdf/core/shutter_arm.xacro"/>
+  <xacro:include filename="$(find shutter_description)/urdf/core/shutter_head.v.2.xacro"/>
+
+  <xacro:macro name="shutter" params="parent:='' xyz:='0 0 0' rpy:='0 0 0' ">
+    <xacro:shutter_arm parent="${parent}" xyz="${xyz}" rpy="${rpy}"/>
+    <xacro:shutter_head parent="wrist_link" xyz="-0.00803 0 0.041" rpy="0 0 1.571"/>
+  </xacro:macro>
+</robot>

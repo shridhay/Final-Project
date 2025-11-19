@@ -1,0 +1,81 @@
+<?xml version="1.0" ?>
+<robot name="shutter_head" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:macro name="shutter_head" params="parent:='' xyz:='0 0 0' rpy:='0 0 0' ">
+
+    <xacro:unless value="${not parent}">
+      <joint name="head_joint" type="fixed">
+        <parent link="${parent}"/>
+        <child link="head_link"/>
+        <origin xyz="${xyz}" rpy="${rpy}"/>
+      </joint>
+    </xacro:unless>
+
+    <!-- head -->
+    <material name="gray">
+      <color rgba="0.5 0.5 0.5 1"/>
+    </material>
+
+    <link name="head_link">
+      <inertial>
+        <mass value="1e-5" />
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <inertia ixx="1e-6" ixy="0" ixz="0" iyy="1e-6" iyz="0" izz="1e-6" />
+      </inertial>
+      <collision>
+        <origin xyz="0 -0.01 0.00375" rpy="0 0 0"/>
+        <geometry>
+          <box size="0.193 0.155 0.04"/>
+        </geometry>
+      </collision>
+      <visual>
+          <origin xyz="0 -0.017 0.01" rpy="-1.571 0 0"/>
+          <geometry>
+            <mesh filename="package://shutter_description/meshes/head.obj" scale="0.001 0.001 0.001"/>
+          </geometry>
+          <material name="gray"/>
+      </visual>
+    </link>
+
+    <!-- logitech webcam -->
+    <joint name="camera_link_joint" type="fixed">
+      <origin xyz="0 0.05 0.018" rpy="-1.571 -1.571 0"/>
+      <parent link="head_link"/>
+      <child link="camera_link"/>
+    </joint>
+    <link name="camera_link"/>
+
+    <joint name="camera_color_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="camera_link"/>
+      <child link="camera_color_frame"/>
+    </joint>
+    <link name="camera_color_frame"/>
+
+    <!-- camera optical frame -->
+    <!-- follows typical camera convention of:
+          x-axis: RIGHT; y-axis: DOWN; z-axis: FORWARD -->
+    <joint name="camera_color_optical_joint" type="fixed">
+      <origin xyz="0 0 0" rpy="${-M_PI/2} 0 ${-M_PI/2}"/>
+      <parent link="camera_color_frame"/>
+      <child link="camera_color_optical_frame"/>
+    </joint>
+    <link name="camera_color_optical_frame"/>
+    <!-- processing eyes on the face -->
+    <link name="left_eye"/>
+    <joint name="left_eye_joint" type="fixed">
+      <!--<origin xyz="0.03175 0 0" rpy="0 0 0"/>-->
+      <origin xyz="0.03175 0 0" rpy="0 3.14 3.14"/>
+      <parent link="head_link"/>
+      <child link="left_eye"/>
+    </joint>
+
+    <link name="right_eye"/>
+    <joint name="right_eye_joint" type="fixed">
+      <!-- <origin xyz="-0.03175 0 0" rpy="0 0 0"/> -->
+      <origin xyz="-0.03175 0 0" rpy="0 3.14 3.14"/>
+      <parent link="head_link"/>
+      <child link="right_eye"/>
+    </joint>
+
+  </xacro:macro>
+</robot>

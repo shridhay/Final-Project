@@ -1,0 +1,94 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /home/hrs47/ros2_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Found urdf: 2.10.0 (/opt/ros/jazzy/share/urdf/cmake)
+-- Found TinyXML2 via Config file: /usr/lib/x86_64-linux-gnu/cmake/tinyxml2
+-- Found xacro: 2.0.13 (/opt/ros/jazzy/share/xacro/cmake)
+-- Found ament_lint_auto: 0.17.3 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Configured 'flake8' exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.0s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_description
+-- Install configuration: "Release"
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//launch
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//launch/shutter_rviz.launch.py
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//launch/load_description.launch.py
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//config
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//config/robot_view.rviz
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/shoulder_link.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/base_link.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/biceps_link.new.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/head.obj
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/d435.dae
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/forearm_link.new.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/forearm_link.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/cart_in_meters.obj
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/wrist_link_no_motor.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//meshes/biceps_link.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.dae
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.openrave.xml
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.2.0.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.0.1.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.unity.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.3.0.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.0.2.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/generated_urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/generated_urdf/shutter.v.3.0.urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/generated_urdf/shutter.v.2.0.urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.4.1.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//robots/shutter.v.4.0.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/shutter.v.2.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/azure_kinect.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/sensor-zed.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/realsense_d435.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.v.2.0.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.v.0.2.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/third_party/widowx-nogripper.urdf.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/shutter.v.1.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/zed_urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/zed_urdf/zed.urdf
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/zed_urdf/ZED.stl
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/core
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/core/shutter_cart.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/core/shutter_head.v.1.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/core/shutter_arm.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description//urdf/core/shutter_head.v.2.xacro
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/lib/shutter_description/generate_ikfast_cpp.py
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/lib/shutter_description/make_ikfast_cpp.sh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/lib/shutter_description/urdf_from_xacro.sh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/ament_index/resource_index/package_run_dependencies/shutter_description
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/ament_index/resource_index/parent_prefix_path/shutter_description
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/environment/ament_prefix_path.sh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/environment/ament_prefix_path.dsv
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/environment/path.sh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/environment/path.dsv
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/local_setup.bash
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/local_setup.sh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/local_setup.zsh
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/local_setup.dsv
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/package.dsv
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/ament_index/resource_index/packages/shutter_description
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/cmake/shutter_descriptionConfig.cmake
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/cmake/shutter_descriptionConfig-version.cmake
+-- Installing: /home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_description/share/shutter_description/package.xml

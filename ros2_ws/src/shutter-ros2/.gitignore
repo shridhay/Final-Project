@@ -1,0 +1,9 @@
+*~
+.idea
+*.pyc
+UnitySim/
+build/
+venv/
+.venv/
+env-hooks/
+.xvfb_cookie

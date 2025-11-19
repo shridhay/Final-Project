@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:property name="M_SCALE" value="0.001"/>
+  <xacro:property name="M_PI" value="3.14159"/>
+  <xacro:macro name="material_black">
+    <material name="">
+      <color rgba="0.2 0.2 0.2 1.0"/>
+    </material>
+  </xacro:macro>
+  <xacro:macro name="widowx_arm" params="parent *origin">
+    <!-- links -->
+    <link name="base_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/base_link.stl"/>
+        </geometry>
+        <xacro:material_black/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/base_link.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      </inertial>
+    </link>
+    <link name="shoulder_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/shoulder_link.stl"/>
+        </geometry>
+        <xacro:material_black/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/shoulder_link.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      </inertial>
+    </link>
+    <link name="biceps_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/biceps_link.new.stl"/>
+        </geometry>
+        <xacro:material_black/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/biceps_link.new.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      </inertial>
+    </link>
+    <link name="forearm_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/forearm_link.new.stl"/>
+        </geometry>
+        <xacro:material_black/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/forearm_link.new.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      </inertial>
+    </link>
+    <link name="wrist_link">
+      <visual>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/wrist_link_no_motor.stl"/>
+        </geometry>
+        <xacro:material_black/>
+      </visual>
+      <collision>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <geometry>
+          <mesh filename="package://shutter_description/meshes/wrist_link_no_motor.stl"/>
+        </geometry>
+      </collision>
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1"/>
+        <inertia ixx="1.0" ixy="0.0" ixz="0.0" iyy="1.0" iyz="0.0" izz="1.0"/>
+      </inertial>
+    </link>
+    <!-- joints -->
+    <joint name="arm_base_joint" type="fixed">
+      <xacro:insert_block name="origin"/>
+      <parent link="${parent}"/>
+      <child link="base_link"/>
+    </joint>
+    <joint name="joint_1" type="revolute">
+      <origin xyz="0 0 ${M_SCALE*125}" rpy="0 0 0"/>
+      <parent link="base_link"/>
+      <child link="shoulder_link"/>
+      <axis xyz="0 0 1"/>
+      <limit lower="-2.617" upper="2.617" effort="6" velocity="0.785"/>
+    </joint>
+    <joint name="joint_2" type="revolute">
+      <!--origin xyz="0.04825 0 0.14203" rpy="0 0 0" /-->
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <parent link="shoulder_link"/>
+      <child link="biceps_link"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.571" upper="1.571" effort="6" velocity="1.571"/>
+    </joint>
+    <joint name="joint_3" type="revolute">
+      <origin xyz="${M_SCALE*48.25} 0 ${M_SCALE*142.03}" rpy="0 ${M_PI/2.0} 0"/>
+      <parent link="biceps_link"/>
+      <child link="forearm_link"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.571" upper="1.571" effort="6" velocity="1.571"/>
+    </joint>
+    <joint name="joint_4" type="revolute">
+      <origin xyz="0 0 ${M_SCALE*142.03}" rpy="0 0 0"/>
+      <parent link="forearm_link"/>
+      <child link="wrist_link"/>
+      <axis xyz="0 1 0"/>
+      <limit lower="-1.571" upper="1.571" effort="6" velocity="1.571"/>
+    </joint>
+  </xacro:macro>
+  <transmission name="tran1">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_1">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor1">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="tran2">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_2">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor2">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="tran3">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_3">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor3">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+  <transmission name="tran4">
+    <type>transmission_interface/SimpleTransmission</type>
+    <joint name="joint_4">
+      <hardwareInterface>PositionJointInterface</hardwareInterface>
+      <hardwareInterface>EffortJointInterface</hardwareInterface>
+    </joint>
+    <actuator name="motor4">
+      <mechanicalReduction>1</mechanicalReduction>
+    </actuator>
+  </transmission>
+</robot>

@@ -1,0 +1,42 @@
+[0.215s] Invoking command in '/home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_hardware_interface
+[0.388s] -- The C compiler identification is GNU 13.3.0
+[0.525s] -- The CXX compiler identification is GNU 13.3.0
+[0.542s] -- Detecting C compiler ABI info
+[0.626s] -- Detecting C compiler ABI info - done
+[0.635s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.636s] -- Detecting C compile features
+[0.636s] -- Detecting C compile features - done
+[0.646s] -- Detecting CXX compiler ABI info
+[0.742s] -- Detecting CXX compiler ABI info - done
+[0.752s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.752s] -- Detecting CXX compile features
+[0.753s] -- Detecting CXX compile features - done
+[0.758s] -- Found ament_cmake: 2.5.4 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.895s] -- Found Python3: /home/hrs47/ros2_ws/.venv/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.012s] -- Found rclcpp: 28.1.11 (/opt/ros/jazzy/share/rclcpp/cmake)
+[1.062s] -- Found rosidl_generator_c: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[1.078s] -- Found rosidl_generator_cpp: 4.6.6 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[1.097s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.118s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.228s] -- Found rmw_implementation_cmake: 7.3.2 (/opt/ros/jazzy/share/rmw_implementation_cmake/cmake)
+[1.234s] -- Found rmw_fastrtps_cpp: 8.4.3 (/opt/ros/jazzy/share/rmw_fastrtps_cpp/cmake)
+[1.357s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.380s] -- Found FastRTPS: /opt/ros/jazzy/include (Required is at least version "2.13") 
+[1.406s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.514s] -- Found sensor_msgs: 5.3.6 (/opt/ros/jazzy/share/sensor_msgs/cmake)
+[1.582s] -- Found dynamixel_workbench_toolbox: 2.2.5 (/opt/ros/jazzy/share/dynamixel_workbench_toolbox/cmake)
+[1.593s] -- Found dynamixel_workbench_msgs: 2.1.0 (/opt/ros/jazzy/share/dynamixel_workbench_msgs/cmake)
+[1.622s] -- Found joint_limits: 4.38.0 (/opt/ros/jazzy/share/joint_limits/cmake)
+[2.014s] -- Configuring done (1.8s)
+[2.036s] -- Generating done (0.0s)
+[2.042s] -- Build files have been written to: /home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_hardware_interface
+[2.051s] Invoked command in '/home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_hardware_interface' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake /home/hrs47/ros2_ws/src/shutter-ros2/shutter_hardware_interface -DCMAKE_BUILD_TYPE=Release -DCMAKE_INSTALL_PREFIX=/home/hrs47/ros2_ws/src/shutter-ros2/install/shutter_hardware_interface
+[2.052s] Invoking command in '/home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_hardware_interface': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/hrs47/ros2_ws/install/ros_tcp_endpoint:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PS1=(.venv) \[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ VIRTUAL_ENV_PROMPT=(.venv) /usr/bin/cmake --build /home/hrs47/ros2_ws/src/shutter-ros2/build/shutter_hardware_interface -- -j12 -l12
+[2.103s] [ 20%] [32mBuilding CXX object CMakeFiles/shutter_hw_core.dir/src/dynamixel_ros_control.cpp.o[0m
+[2.103s] [ 40%] [32mBuilding CXX object CMakeFiles/shutter_hw_core.dir/src/shutter_position_interface.cpp.o[0m
+[10.151s] [ 60%] [32m[1mLinking CXX shared library libshutter_hw_core.so[0m
+[11.153s] [ 60%] Built target shutter_hw_core
+[11.172s] [ 80%] [32mBuilding CXX object CMakeFiles/shutter_position_node.dir/src/shutter_position_node.cpp.o[0m
+[17.154s] gmake[2]: *** [CMakeFiles/shutter_position_node.dir/build.make:76: CMakeFiles/shutter_position_node.dir/src/shutter_position_node.cpp.o] Interrupt
+[17.154s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/shutter_position_node.dir/all] Interrupt
+[17.154s] gmake: *** [Makefile:146: all] Interrupt

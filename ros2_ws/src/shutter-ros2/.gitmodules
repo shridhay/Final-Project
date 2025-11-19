@@ -1,0 +1,14 @@
+[submodule "shutter-face"]
+	path = shutter_face_ros/shutter_face
+	url = https://gitlab.com/interactive-machines/shutter/shutter-face.git
+	update = merge
+[submodule "ROS-TCP-Endpoint"]
+	path = modules/ROS-TCP-Endpoint
+	url = https://github.com/Unity-Technologies/ROS-TCP-Endpoint.git
+	branch = main-ros2
+	update = rebase
+# [submodule "screen_grab"]
+# 	path = modules/screen_grab
+# 	url = https://github.com/yale-img/screen_grab.git
+# 	branch = devel
+# 	update = merge
